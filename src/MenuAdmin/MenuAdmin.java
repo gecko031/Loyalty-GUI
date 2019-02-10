@@ -1,7 +1,10 @@
+package MenuAdmin;
+
 import javax.swing.*;
 
 public class MenuAdmin extends JFrame{
     private JPanel contentPanel;
+    private JPanel panelRoot;
 
     public MenuAdmin() {
         add(contentPanel);
