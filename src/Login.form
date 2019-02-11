@@ -43,7 +43,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="admin"/>
+        </properties>
       </component>
       <vspacer id="b6bea">
         <constraints>

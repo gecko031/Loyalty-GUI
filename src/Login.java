@@ -1,4 +1,4 @@
-import MenuAdmin.MenuAdmin;
+import menuAdmin.MenuAdmin;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -29,7 +29,7 @@ public class Login extends JFrame{
     public Login() {
         add(contentPanel);
         setTitle("Log in");
-        setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300,200);
         setLocation(825,425);
 
@@ -41,8 +41,6 @@ public class Login extends JFrame{
                 //MenuUser menuUser = new MenuUser();
                 MenuAdmin menuAdmin = new MenuAdmin();
 
-
-                login.dispose();
                 valueLogin = textField1.getText();
 
                 if(valueLogin.equals(matchUsernameUser)){
@@ -56,7 +54,7 @@ public class Login extends JFrame{
                     System.out.println("You logged as an admin: " + valueLogin);
 
                     menuAdmin.setVisible(true);
-                    dispose();
+                    login.setVisible(false);
                 }else {
                     System.out.println("You loggged nowhere, keep on trying...");
                 }
