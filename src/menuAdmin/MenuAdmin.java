@@ -10,6 +10,7 @@ public class MenuAdmin extends JDialog {
   private JPanel panel1;
   private JPanel panel2;
 
+
   public MenuAdmin() {
 
     setContentPane(contentPane);
