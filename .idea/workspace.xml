@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="465aff4e-944c-4131-9412-4d07c4294a9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/StoreManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/cartUser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/cartUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/Form1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Form1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/Store.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Store.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/StoreManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/cartUser.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/cartUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/Validator.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +19,10 @@
     <session id="1578818068">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="2" />
@@ -43,18 +30,18 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="78" />
-          <entry key="java" value="23250" />
+          <entry key="java" value="23422" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23250" />
+          <entry key="JAVA" value="23422" />
           <entry key="PLAIN_TEXT" value="78" />
         </counts>
       </usages-collector>
@@ -80,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/menu/SmartCardManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="1054">
+              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1549#1550#0" expanded="true" />
@@ -98,40 +85,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/menu/MenuUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="340">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/menu/Store.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="233" column="22" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4124#6182#0" expanded="true" />
-                <element signature="e#6181#6182#0" expanded="true" />
-                <element signature="e#6224#6431#0" expanded="true" />
-                <element signature="e#6430#6431#0" expanded="true" />
-                <element signature="e#6477#9886#0" expanded="true" />
-                <element signature="e#9885#9886#0" expanded="true" />
-                <element signature="e#11099#11100#0" expanded="true" />
-                <element signature="e#11132#11133#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/menu/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="142" column="50" lean-forward="true" selection-start-line="142" selection-start-column="50" selection-end-line="142" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3619#5858#0" expanded="true" />
+                <element signature="e#5857#5858#0" expanded="true" />
+                <element signature="e#5900#6107#0" expanded="true" />
+                <element signature="e#6106#6107#0" expanded="true" />
+                <element signature="e#6153#9562#0" expanded="true" />
+                <element signature="e#9561#9562#0" expanded="true" />
+                <element signature="e#10763#10764#0" expanded="true" />
+                <element signature="e#10796#10797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/menu/Form1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="279" column="17" lean-forward="true" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
+            <state relative-caret-position="4573">
+              <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,6 +138,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>labelBalance</find>
+      <find>balance</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,8 +196,8 @@
         <option value="$PROJECT_DIR$/src/Login.form" />
         <option value="$PROJECT_DIR$/src/menu/SmartCardManager.java" />
         <option value="$PROJECT_DIR$/src/menu/Store.form" />
-        <option value="$PROJECT_DIR$/src/menu/Store.java" />
         <option value="$PROJECT_DIR$/src/menu/Form1.java" />
+        <option value="$PROJECT_DIR$/src/menu/Store.java" />
       </list>
     </option>
   </component>
@@ -219,7 +207,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -229,62 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="Form1" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuAdmin" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuUser" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="Store" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="e9f4de52:FormNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -316,6 +248,28 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="menu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="MenuAdmin" type="e9f4de52:FormNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,11 +382,13 @@
       <workItem from="1550134005479" duration="22090000" />
       <workItem from="1550168986203" duration="3373000" />
       <workItem from="1550219649674" duration="14007000" />
+      <workItem from="1550235786001" duration="478000" />
+      <workItem from="1550249126629" duration="4155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269381000" />
+    <option name="totallyTimeSpent" value="274014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +400,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -452,14 +408,14 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13219616" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.09777778" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3281412" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.24815206" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32883817" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.2596054" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.25871173" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3692946" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -477,6 +433,37 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.09777778" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.24815206" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32883817" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.2596054" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3692946" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.33437175" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3271028" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -615,9 +602,7 @@
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/menu/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/menu/cartUser.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/cartUser.form" />
     <entry file="file://$PROJECT_DIR$/src/menu/Test.form" />
     <entry file="file://$PROJECT_DIR$/src/menu/MenuUser.form">
       <provider selected="true" editor-type-id="ui-designer" />
@@ -664,10 +649,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/cartUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/menu/StoreManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/validator/Validator.java" />
     <entry file="file://$PROJECT_DIR$/src/menu/SmartCardManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="1054">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1549#1550#0" expanded="true" />
@@ -680,61 +668,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/cartUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/StoreManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/menu/MenuUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="340">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/validator/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="233" column="22" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4124#6182#0" expanded="true" />
-            <element signature="e#6181#6182#0" expanded="true" />
-            <element signature="e#6224#6431#0" expanded="true" />
-            <element signature="e#6430#6431#0" expanded="true" />
-            <element signature="e#6477#9886#0" expanded="true" />
-            <element signature="e#9885#9886#0" expanded="true" />
-            <element signature="e#11099#11100#0" expanded="true" />
-            <element signature="e#11132#11133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/menu/Form1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="279" column="17" lean-forward="true" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
+        <state relative-caret-position="4573">
+          <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="142" column="50" lean-forward="true" selection-start-line="142" selection-start-column="50" selection-end-line="142" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3619#5858#0" expanded="true" />
+            <element signature="e#5857#5858#0" expanded="true" />
+            <element signature="e#5900#6107#0" expanded="true" />
+            <element signature="e#6106#6107#0" expanded="true" />
+            <element signature="e#6153#9562#0" expanded="true" />
+            <element signature="e#9561#9562#0" expanded="true" />
+            <element signature="e#10763#10764#0" expanded="true" />
+            <element signature="e#10796#10797#0" expanded="true" />
           </folding>
         </state>
       </provider>

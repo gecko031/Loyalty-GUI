@@ -64,7 +64,7 @@ public class Store extends JFrame{
     private String apduBalance;
 
     private Integer orderQuantity;
-    private Integer orderPrice;
+    private int orderPrice;
     private String balance;
 
 
@@ -123,38 +123,22 @@ public class Store extends JFrame{
                 labelItemQuantity.setText(String.valueOf(orderQuantity));
                 labelItemTotalPrice.setText(String.valueOf(orderPrice));
 
-                String balanceConvert = String.valueOf(Long.parseLong(balance, 16));
-                String balanceAfterDebit = String.valueOf(parseInt(balanceConvert) - orderPrice);
+                int balanceConvert = parseInt(balance, 16);
+                int balanceAfterDebit = balanceConvert - orderPrice;
 
-                labelBalanceAfterOrder.setText(balanceAfterDebit);
-                if((parseInt(balanceConvert)- orderPrice) > 0){
+                labelBalanceAfterOrder.setText(String.valueOf(balanceAfterDebit));
 
-                    String hex = Integer.toHexString(parseInt(balanceAfterDebit));
-                    System.out.println("[]" + hex + "[]");//works for string
 
-                    System.out.println("new Method int to hex byte array");
-                    byte[] bytes = ByteBuffer.allocate(4).putInt(parseInt(balanceAfterDebit)).array();
+                if(balanceAfterDebit > 0){
 
-                    for (byte b : bytes) {
-                        System.out.format("0x%x ", b);
-                    }
-                    System.out.println();
-
-                    byte quantity[] = new byte[]{0x00};
-                    System.arraycopy(bytes, 3, quantity, 0, 1);
-
-                    byte beforeQuantity[] = new byte[]{0x00,0x04,0x00,0x00,0x01};
-                    byte afterQuantity[] = new byte[]{0x01};
-
-                    ByteArrayOutputStream outputStream = new ByteArrayOutputStream( );
-                    try {
-                        outputStream.write( beforeQuantity );
-                        outputStream.write( quantity );
-                        outputStream.write( afterQuantity );
-                    } catch (IOException e1) {
-                        e1.printStackTrace();
-                    }
-                    apduDebitToken = outputStream.toByteArray();
+                    apduDebitToken = new byte[] {
+                            0x00, 0x04, 0x00, 0x00, 0x01,  // quantity start
+                            (byte) orderPrice,
+                            0x01
+                    };
+                    System.out.println(Arrays.toString(apduDebitToken));
+                    System.out.println("[BYTE ARRAY]Display array effect");
+                    System.out.format("0x%x ", apduDebitToken[5]);
 
                     panelSummary.setVisible(true);
                 }else
@@ -231,13 +215,13 @@ public class Store extends JFrame{
                     }
                     //TODO: Uncomment this
                     //send APDU confirmTransaction
-                    /*try {
+                    try {
                         apduConfirmTransaction = SmartCardManager.hexStringToByteArray("00660000");
                         javaCard.sendApdu(apduConfirmTransaction);
                         System.out.println("apduConfirmTransaction: " + javaCard.getModuloSW());
                     } catch (CardException e1) {
                         e1.printStackTrace();
-                    }*/
+                    }
                     JOptionPane.showMessageDialog(panelNavigation, "Payment completed, thank You.");
 
                 }
