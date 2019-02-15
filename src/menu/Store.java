@@ -7,6 +7,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.math.BigInteger;
+import java.nio.ByteBuffer;
 import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
@@ -77,18 +79,6 @@ public class Store extends JFrame{
 
         panelSummary.setVisible(false);
 
-        //TODO: [POSTPONED]lock spinners not to go minus pieces.
-        //makeSpinnerNotNegative();
-        //TODO: [DOING]lock costs not to exceed balance
-
-        //TODO: [DOING]put notice about finished payment + real debit method
-        //TODO: [DONE]implement balance account result in summary
-        //TODO: [DONE]calaculate balance the way normal user could read it(not hex)
-
-        //TODO: [POSTPONED]make mechanism to put card in the reader(if not - request to do it and initialize again)
-
-
-
         final SmartCardManager javaCard = new SmartCardManager();
 
         List<CardTerminal> terminals;
@@ -141,13 +131,17 @@ public class Store extends JFrame{
 
                     String hex = Integer.toHexString(parseInt(balanceAfterDebit));
                     System.out.println("[]" + hex + "[]");//works for string
-                    byte[] quantity = {0x00}; //= Integer.toHexString(parseInt(balanceAfterDebit)) ;
 
-                    /*System.out.println(
-                            "[DEBUG] value of debit" +
-                            String.valueOf((parseInt(balanceConvert) - orderPrice)/16) +
-                            String.valueOf((parseInt(balanceConvert) - orderPrice)%16));//working*/
-                    System.out.println("Value of fieldPoint: " + Arrays.toString(quantity));
+                    System.out.println("new Method int to hex byte array");
+                    byte[] bytes = ByteBuffer.allocate(4).putInt(parseInt(balanceAfterDebit)).array();
+
+                    for (byte b : bytes) {
+                        System.out.format("0x%x ", b);
+                    }
+                    System.out.println();
+
+                    byte quantity[] = new byte[]{0x00};
+                    System.arraycopy(bytes, 3, quantity, 0, 1);
 
                     byte beforeQuantity[] = new byte[]{0x00,0x04,0x00,0x00,0x01};
                     byte afterQuantity[] = new byte[]{0x01};
@@ -274,6 +268,10 @@ public class Store extends JFrame{
         sum += (int) spinnerItem6.getValue() * parseInt(priceItem6.getText());
         System.out.println("sumOfCostsMethod: " + sum);
         return sum;
+    }
+    private byte[] bigIntToByteArray( final int i ) {
+        BigInteger bigInt = BigInteger.valueOf(i);
+        return bigInt.toByteArray();
     }
     public JPanel getPanel() {
         return panelStore;

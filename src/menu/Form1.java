@@ -1,6 +1,6 @@
 package menu;
 
-import validator.Validator;
+
 
 import javax.smartcardio.Card;
 import javax.smartcardio.CardException;
@@ -271,6 +271,8 @@ public class Form1 extends JFrame{
                         apduConfirmTransaction = SmartCardManager.hexStringToByteArray("00660000");
                         javaCard.sendApdu(apduConfirmTransaction);
                         System.out.println("apduConfirmTransaction: " + javaCard.getModuloSW());
+                        labelStatus.setText("Verify PIN: " + javaCard.getModuloSW());
+
                     } catch (CardException e1) {
                         e1.printStackTrace();
                     }
