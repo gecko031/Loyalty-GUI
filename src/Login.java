@@ -1,7 +1,9 @@
-import menuAdmin.MenuAdmin;
+import menu.MenuAdmin;
+import menu.MenuUser;
 
 import javax.swing.*;
 import java.awt.event.*;
+import java.util.Arrays;
 
 public class Login extends JFrame{
 
@@ -10,8 +12,8 @@ public class Login extends JFrame{
 
     private JPanel contentPanel;
     private JPanel ContentPanel999;
-    private JPasswordField passwordField1;
-    private JTextField textField1;
+    private JPasswordField fieldPassword;
+    private JTextField fieldUsername;
     private JButton button1;
 
 
@@ -24,7 +26,7 @@ public class Login extends JFrame{
     private String valueLogin;
     private String valuePassword;
 
-
+    //TODO: Write some password and account manegement in app
 
     public Login() {
         add(contentPanel);
@@ -33,34 +35,33 @@ public class Login extends JFrame{
         setSize(300,200);
         setLocation(825,425);
 
-        // TODO: move to another window
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 Login login = new Login();
-                //MenuUser menuUser = new MenuUser();
-                MenuAdmin menuAdmin = new MenuAdmin();
 
-                valueLogin = textField1.getText();
+                valueLogin = fieldUsername.getText();
+                valuePassword = new String(fieldPassword.getPassword());
 
-                if(valueLogin.equals(matchUsernameUser)){
-                    MenuUser menuUser = new MenuUser();
+                if(valueLogin.equals(matchUsernameUser) && valuePassword.equals(matchPasswordUser)){
                     System.out.println("logged as an user: " + valueLogin);
-
+                    MenuUser menuUser = new MenuUser();
                     menuUser.setVisible(true);
-                    dispose();
+                    login.setVisible(false);
                 }
-                else if(valueLogin.equals(matchUsernameAdmin)){
+                else if(valueLogin.equals(matchUsernameAdmin) && valuePassword.equals(matchPasswordAdmin)){
                     System.out.println("You logged as an admin: " + valueLogin);
-
+                    MenuAdmin menuAdmin = new MenuAdmin();
                     menuAdmin.setVisible(true);
                     login.setVisible(false);
-                }else {
-                    System.out.println("You loggged nowhere, keep on trying...");
+                }
+                else {
+                    System.out.println("Try again...");
                 }
             }
         });
-        /*textField1.addKeyListener(new KeyAdapter() {
+        /*fieldUsername.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
                 super.keyTyped(e);

@@ -2,30 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465aff4e-944c-4131-9412-4d07c4294a9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/SmartCardManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menuAdmin/SmartCardManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Form1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Form1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Form1$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Form1$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Form1$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Form1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/MenuAdmin$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/MenuAdmin$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/MenuAdmin$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/MenuAdmin$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/MenuUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/StoreManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/cartUser$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/cartUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/MenuUser.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/MenuUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/Store.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/StoreManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/cartUser.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/cartUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/SmartCardManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/validator/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/Form1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/MenuAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/MenuAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuAdmin/SmartCardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LoyaltyGUI/menu/SmartCardManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuUser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LoyaltyGUI/MenuUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SmartCardManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuAdmin/Form1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/menuAdmin/Form1.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuAdmin/Form1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menuAdmin/Form1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menuAdmin/MenuAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menuAdmin/MenuAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuUser.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MenuUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menuAdmin/Form1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Form1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menuAdmin/Form1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Form1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menuAdmin/MenuAdmin.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/MenuAdmin.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menuAdmin/MenuAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/MenuAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menuAdmin/SmartCardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/SmartCardManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,43 +72,44 @@
     <session id="1578818068">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="64" />
-          <entry key="java" value="17331" />
+          <entry key="dummy" value="78" />
+          <entry key="java" value="22790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17331" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="JAVA" value="22790" />
+          <entry key="PLAIN_TEXT" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Form1" value="1" />
           <entry key="MenuAdmin" value="1" />
-          <entry key="form" value="42" />
-          <entry key="java" value="80" />
+          <entry key="form" value="74" />
+          <entry key="java" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="GUI_DESIGNER_FORM" value="42" />
-          <entry key="JAVA" value="80" />
+          <entry key="GUI_DESIGNER_FORM" value="74" />
+          <entry key="JAVA" value="116" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -86,38 +118,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/menuAdmin/SmartCardManager.java">
+        <entry file="file://$PROJECT_DIR$/src/menu/SmartCardManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="107" column="28" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="28" />
+            <state relative-caret-position="189">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1615#1616#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1709#1710#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form1.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/menu/MenuUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="195" column="115" selection-start-line="195" selection-start-column="115" selection-end-line="195" selection-end-column="115" />
+            <state relative-caret-position="374">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4679#6641#0" expanded="true" />
-                <element signature="e#6640#6641#0" expanded="true" />
-                <element signature="e#6415#8047#0" expanded="true" />
-                <element signature="e#8046#8047#0" expanded="true" />
-                <element signature="e#8079#10548#0" expanded="true" />
-                <element signature="e#10547#10548#0" expanded="true" />
-                <element signature="e#10586#10587#0" expanded="true" />
-                <element signature="e#10608#10609#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/menu/Form1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,8 +162,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/menu/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="140" column="55" lean-forward="true" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,16 +184,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/validator/Validator.java">
+        <entry file="file://$PROJECT_DIR$/src/menu/MenuAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="680">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1259#1260#0" expanded="true" />
+                <element signature="e#1278#1279#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form1.form">
+        <entry file="file://$PROJECT_DIR$/src/menu/Store.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -158,15 +215,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>labelBalance</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JavaSmartCard.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/TerminalForm.form" />
         <option value="$PROJECT_DIR$/src/TerminalForm.java" />
         <option value="$PROJECT_DIR$/src/Access.form" />
         <option value="$PROJECT_DIR$/src/Access.java" />
@@ -175,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/UserMenu.java" />
         <option value="$PROJECT_DIR$/src/AdminMenu.java" />
         <option value="$PROJECT_DIR$/src/MenuUser.java" />
-        <option value="$PROJECT_DIR$/src/MenuUser.form" />
         <option value="$PROJECT_DIR$/src/UserData.java" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.java" />
         <option value="$PROJECT_DIR$/src/MenuAdmin.form" />
@@ -187,8 +245,6 @@
         <option value="$PROJECT_DIR$/src/MenuAdmin/Main.java" />
         <option value="$PROJECT_DIR$/src/MenuAdmin/MenuAdmin.java" />
         <option value="$PROJECT_DIR$/src/menuAdmin/Form3.form" />
-        <option value="$PROJECT_DIR$/src/Login.java" />
-        <option value="$PROJECT_DIR$/src/Login.form" />
         <option value="$PROJECT_DIR$/src/menuAdmin/Form3.java" />
         <option value="$PROJECT_DIR$/src/menuAdmin/Form2.form" />
         <option value="$PROJECT_DIR$/src/menuAdmin/Form2.java" />
@@ -196,7 +252,6 @@
         <option value="$PROJECT_DIR$/src/cardManager/cardApiTemplate/JavaSmartcard.java" />
         <option value="$PROJECT_DIR$/src/validator/Validate.java" />
         <option value="$PROJECT_DIR$/src/cardManager/Connect.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/SmartCardManager.java" />
         <option value="$PROJECT_DIR$/src/SmartManager.java" />
         <option value="$PROJECT_DIR$/src/menuAdmin/MenuAdmin.java" />
@@ -205,6 +260,23 @@
         <option value="$PROJECT_DIR$/src/menuAdmin/SmartCardManager.java" />
         <option value="$PROJECT_DIR$/src/menuAdmin/Form1.form" />
         <option value="$PROJECT_DIR$/src/menuAdmin/Form1.java" />
+        <option value="$PROJECT_DIR$/src/MenuUser.form" />
+        <option value="$PROJECT_DIR$/src/menu/StoreManager.java" />
+        <option value="$PROJECT_DIR$/src/menu/cartUser.form" />
+        <option value="$PROJECT_DIR$/src/menu/cartUser.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/menu/Test.form" />
+        <option value="$PROJECT_DIR$/src/menu/Test.java" />
+        <option value="$PROJECT_DIR$/src/menu/MenuAdmin.java" />
+        <option value="$PROJECT_DIR$/src/menu/MenuUser.form" />
+        <option value="$PROJECT_DIR$/src/menu/MenuUser.java" />
+        <option value="$PROJECT_DIR$/src/Login.java" />
+        <option value="$PROJECT_DIR$/src/menu/Store.form" />
+        <option value="$PROJECT_DIR$/src/menu/Form1.form" />
+        <option value="$PROJECT_DIR$/src/menu/Form1.java" />
+        <option value="$PROJECT_DIR$/src/Login.form" />
+        <option value="$PROJECT_DIR$/src/menu/SmartCardManager.java" />
+        <option value="$PROJECT_DIR$/src/menu/Store.java" />
       </list>
     </option>
   </component>
@@ -240,36 +312,83 @@
               <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="menuAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="Store" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoyaltyGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="e9f4de52:FormNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="LoyaltyGUI" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LoyaltyGUI" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LoyaltyGUI" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LoyaltyGUI" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="menu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LoyaltyGUI" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="menu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Form1" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="LoyaltyGUI" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="LoyaltyGUI" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="menu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MenuAdmin" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="128" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="322" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="233" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550085480996" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Java_Smartcard_calculator/Learning" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550198190335" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/MOJE STUDIA/PRACA INŻYNIERSKA/Przebieg pracy/Implementacja/GUI/LoyaltyGUI(backup)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel\IdeaProjects\LoyaltyGUI\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pawel\IdeaProjects\LoyaltyGUI\src\menu" />
+      <recent name="C:\Users\Pawel\IdeaProjects\LoyaltyGUI\src\menuAdmin" />
       <recent name="C:\Users\Pawel\IdeaProjects\LoyaltyGUI\src\MenuAdmin" />
     </key>
   </component>
@@ -350,12 +469,16 @@
       <workItem from="1549964931564" duration="4156000" />
       <workItem from="1549976761658" duration="20688000" />
       <workItem from="1550003173588" duration="15907000" />
-      <workItem from="1550059935600" duration="15478000" />
+      <workItem from="1550059935600" duration="15618000" />
+      <workItem from="1550088290079" duration="16473000" />
+      <workItem from="1550134005479" duration="22090000" />
+      <workItem from="1550168986203" duration="3373000" />
+      <workItem from="1550219649674" duration="6605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191719000" />
+    <option name="totallyTimeSpent" value="261979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,21 +498,20 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.12313433" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32883817" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3281412" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32883817" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.34439835" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.2596054" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3692946" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="10" visible="true" weight="0.3340249" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32780084" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.33437175" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3271028" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -399,38 +521,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.12313433" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32883817" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info active="true" anchor="bottom" id="Find" order="4" visible="true" weight="0.32883817" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.34439835" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3340249" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32780084" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -453,25 +545,9 @@
     <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form3.form" />
     <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form2.form" />
     <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form2.java" />
-    <entry file="file://$PROJECT_DIR$/src/menuAdmin/MenuAdmin.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cardManager/cardApiTemplate/MainForm.java" />
     <entry file="file://$PROJECT_DIR$/src/cardManager/cardApiTemplate/JavaSmartcard.java" />
     <entry file="file://$PROJECT_DIR$/src/cardManager/cardApiTemplate/MainForm.form" />
-    <entry file="file://$PROJECT_DIR$/src/MenuUser.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/menuAdmin.Form1">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -538,28 +614,6 @@
     <entry file="file://$PROJECT_DIR$/src/cardManager/Connect.java" />
     <entry file="file://$PROJECT_DIR$/src/cardManager/Balance.java" />
     <entry file="file://$PROJECT_DIR$/src/cardManager/confirmTransaction.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuAdmin/MenuAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -578,49 +632,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/javax/swing/JSpinner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="255">
+          <caret line="147" column="6" lean-forward="true" selection-start-line="147" selection-start-column="6" selection-end-line="147" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/StoreManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="1094" selection-start-line="1094" selection-end-line="1094" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#269#388#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form1.form">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="2021" selection-start-line="2021" selection-end-line="2021" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/MenuAdmin.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuAdmin/SmartCardManager.java">
+    <entry file="file://$PROJECT_DIR$/src/menu/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/menu/cartUser.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/cartUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="107" column="28" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/Test.form" />
+    <entry file="file://$PROJECT_DIR$/src/menu/MenuUser.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/Form1.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="613" column="22" selection-start-line="613" selection-start-column="22" selection-end-line="613" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/MenuAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuAdmin/Form1.java">
+    <entry file="file://$PROJECT_DIR$/src/Login.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/MenuUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="195" column="115" selection-start-line="195" selection-start-column="115" selection-end-line="195" selection-end-column="115" />
+        <state relative-caret-position="374">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4679#6641#0" expanded="true" />
-            <element signature="e#6640#6641#0" expanded="true" />
-            <element signature="e#6415#8047#0" expanded="true" />
-            <element signature="e#8046#8047#0" expanded="true" />
-            <element signature="e#8079#10548#0" expanded="true" />
-            <element signature="e#10547#10548#0" expanded="true" />
-            <element signature="e#10586#10587#0" expanded="true" />
-            <element signature="e#10608#10609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/Form1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/SmartCardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/Store.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="140" column="55" lean-forward="true" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

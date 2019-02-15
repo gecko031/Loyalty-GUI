@@ -1,4 +1,4 @@
-package menuAdmin;
+package menu;
 
 import validator.Validator;
 
@@ -42,12 +42,12 @@ public class Form1 extends JFrame{
     protected CardTerminal terminal;
     protected Card card;
 
-    protected byte[] apduSelect;
-    protected byte[] apduVerifyPIN;
-    protected byte[] apduCreditToken;
-    protected byte[] apduDebitToken;
-    protected byte[] apduConfirmTransaction;
-    protected String apduBalance;
+    private byte[] apduSelect;
+    private byte[] apduVerifyPIN;
+    private byte[] apduCreditToken;
+    private byte[] apduDebitToken;
+    private byte[] apduConfirmTransaction;
+    private String apduBalance;
 
     protected byte[] quantity;
     protected byte[] beforeQuantity;
@@ -65,25 +65,21 @@ public class Form1 extends JFrame{
         comboBox1 = new JComboBox();
         comboBox1.setModel(new DefaultComboBoxModel(new String[] { "--select--" }));
 
-        final Validator v = new Validator();
-
         loadReaderButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    List<CardTerminal> terminals = javaCard.getTerminals(); //!!!
+                    List<CardTerminal> terminals = javaCard.getTerminals();
                     comboBox1.removeAllItems();
                     for (int i = 0; i < terminals.size(); i++)
                     {
-                        comboBox1.addItem(terminals.get(i).getName());
+                        comboBox1.addItem(new String(terminals.get(i).getName()));
                         System.out.println("Availble terminal name: " + terminals.get(i).getName());
                         readerStatus.setText(terminals.get(i).getName());
                     }
                     System.out.println("terminal array [0]: " + terminals.get(0).getName());
-                    System.out.println("terminal array [1]: " + terminals.get(1).getName());
                 } catch (Exception ex) {
-
-                    JOptionPane.showMessageDialog(panel, "Getting problems while tried to access terminal list\n"+ex.getMessage()+".\nReresh agin or restart", "Could not get Terminals", JOptionPane.ERROR_MESSAGE);
+                    //JOptionPane.showMessageDialog(panel, "Getting problems while tried to access terminal list\n"+ex.getMessage()+".\nReresh agin or restart", "Could not get Terminals", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
@@ -138,7 +134,7 @@ public class Form1 extends JFrame{
                     creditButton.setEnabled(false);
 
 
-                    quantity = SmartCardManager.hexStringToByteArray(fieldPoint.getText());
+                    byte[] quantity = SmartCardManager.hexStringToByteArray(fieldPoint.getText());
 
                     System.out.println("Value of fieldPoint: " + Arrays.toString(quantity));
 
@@ -175,7 +171,7 @@ public class Form1 extends JFrame{
                     creditButton.setVisible(false);
                     debitButton.setEnabled(false);
 
-                    quantity = SmartCardManager.hexStringToByteArray(fieldPoint.getText());
+                    byte[] quantity = SmartCardManager.hexStringToByteArray(fieldPoint.getText());
 
                     System.out.println("Value of fieldPoint: " + Arrays.toString(quantity));
 
@@ -191,7 +187,7 @@ public class Form1 extends JFrame{
                         e1.printStackTrace();
                     }
 
-                    apduDebitToken = outputStream.toByteArray( );
+                    apduDebitToken = outputStream.toByteArray();
 
                     System.out.println("var apduDebitToken value: " + Arrays.toString(apduDebitToken));//TODO:[DONE] check if print apduDebitToken byte array
                 }
@@ -212,16 +208,8 @@ public class Form1 extends JFrame{
                 if(fieldPIN.getPassword() == null){
                    return;
                 }else {
-                    String pinVault;
 
-                    /*
-                    System.out.println("PIN field is not empty. Success");
-                    pinVault = new String(fieldPIN.getPassword());
-                    apduVerifyPIN = SmartCardManager.hexStringToByteArray(pinVault);
-                    System.out.println("[Debug] PINcontainer(delete after finish)" + Arrays.toString(apduVerifyPIN));
-                    pinVault = "0";//"better safe than sorry"*/
-
-                    quantity = SmartCardManager.hexStringToByteArray(new String(fieldPIN.getPassword()));
+                    byte[] quantity = SmartCardManager.hexStringToByteArray(new String(fieldPIN.getPassword()));
                     System.out.println("Value of fieldPoint: " + Arrays.toString(quantity));
 
                     byte beforeQuantity[] = new byte[]{0x00,0x20,0x00,0x00,0x04};

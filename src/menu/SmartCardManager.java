@@ -1,4 +1,4 @@
-package menuAdmin;
+package menu;
 
 import javax.smartcardio.*;
 import java.util.List;
