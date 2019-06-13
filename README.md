@@ -3,18 +3,20 @@
 Guitar store application GUI build to communicate with preinstalled [loyalty-applet](https://github.com/gecko031/loyalty-applet) on smart card.<br/>
 It uses two user accounts. User and administrator. User can buy stuff from application and administrator<br/> can manipulate poins on the very same card.
 <br/>
-![](demo/loyaltyCardDemo.jpg)
+<br/>
+![](demo/loyaltyCardDemo.jpg)<br/>
 Smart Card with Gemalto IDBridge
 <br/>
-![](demo/guitarStoreLayoutUser.png)
+<br/>
+![](demo/guitarStoreLayoutUser.png)<br/>
 LoyaltyGUI user Layout
 
 
 ## Getting Started
 
-To run Guitar store application you need to download jar file from `release` tabor clone repository<br/>
-and open with intellij or any favourite IDE. To install applet dedicated to this applciation<br/>
-go to smart card applet [README](https://github.com/gecko031/loyalty-applet).
+To run Guitar store application you need to download jar file from `release` tab or clone repository<br/>
+and open with Intellij or any favourite IDE. To install applet dedicated to this applciation<br/>
+go to smart card applet description [README](https://github.com/gecko031/loyalty-applet).
 
 ### Prerequisites
 
