@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LoyaltyGUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoyaltyGUI_jar</output-path>
+    <root id="archive" name="LoyaltyGUI.jar">
+      <element id="module-output" name="LoyaltyGUI" />
+    </root>
+  </artifact>
+</component>
